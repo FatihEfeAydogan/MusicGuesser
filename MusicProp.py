@@ -62,76 +62,65 @@ mfcc19_var = data['mfcc19_var']
 mfcc20_mean = data['mfcc20_mean']
 mfcc20_var = data['mfcc20_var']
 
-"""
+
 plt.scatter(chroma_stft_mean, chroma_stft_var, color="red")
 plt.xlabel("chroma_stft_mean")
 plt.ylabel("chroma_stft_var")
 plt.legend()
 plt.show()
-"""
 
-"""
+
+
 plt.scatter(rms_mean, rms_var, color="blue")
 plt.xlabel("rms_mean")
 plt.ylabel("rms_var")
 plt.legend()
 #plt.show()
-"""
 
-"""
+
+
 plt.scatter(spectral_centroid_mean, spectral_centroid_var, color="green", label="spectral_centroid")
 plt.scatter(spectral_bandwidth_mean, spectral_bandwidth_var, color="orange", label="spectral_bandwidth")
 
 plt.xlabel("Mean")
 plt.ylabel("Variance")
 plt.legend()
-#plt.show()
-"""
-"""
+plt.show()
+
 plt.scatter(rolloff_mean, rolloff_var, color="purple", label="rolloff")
 plt.xlabel("Mean")
 plt.ylabel("Variance")
 plt.legend()
 #plt.show()
-"""
 
-"""
 plt.scatter(zero_crossing_rate_mean, zero_crossing_rate_var, color="cyan", label="zero_crossing_rate")
 
 plt.xlabel("Mean")
 plt.ylabel("Variance")
 plt.legend()
 plt.show()
-"""
 
-"""
 plt.scatter(harmony_mean, harmony_var, color="yellow", label="harmony")
 
 plt.xlabel("Mean")
 plt.ylabel("Variance")
 plt.legend()
 plt.show()
-"""
 
-"""
 plt.scatter(perceptr_mean, perceptr_var, color="magenta", label="perceptr")
 
 plt.xlabel("Mean")
 plt.ylabel("Variance")
 plt.legend()
 plt.show()
-"""
 
-
-"""
 plt.scatter(tempo, tempo, color="black", label="tempo")
 
 plt.xlabel("Mean")
 plt.ylabel("Variance")
 plt.legend()
 plt.show()
-"""
-"""
+
 plt.scatter(mfcc1_mean, mfcc1_var, color="gray", label="mfcc1")
 plt.scatter(mfcc2_mean, mfcc2_var, color="brown", label="mfcc2")
 plt.scatter(mfcc3_mean, mfcc3_var, color="olive", label="mfcc3")
@@ -157,8 +146,8 @@ plt.xlabel("Mean")
 plt.ylabel("Variance")
 plt.legend()
 plt.show()
-"""
 
+"""
 plt.scatter(chroma_stft_mean, chroma_stft_var, color="red", label="chroma_stft")
 plt.scatter(rms_mean, rms_var, color="blue", label="rms")
 plt.scatter(spectral_centroid_mean, spectral_centroid_var, color="green", label="spectral_centroid")
@@ -193,7 +182,7 @@ plt.xlabel("Mean")
 plt.ylabel("Variance")
 plt.legend()
 plt.show()
-
+"""
 
 
 
